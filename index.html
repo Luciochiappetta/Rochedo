@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rochedão Búrguer - O melhor hambúrguer da Cidade!</title>
+    <meta name="description" content="Rochedão Búrguer - Sabor que conquista na primeira mordida. Os melhores hambúrgueres artesanais da cidade com ingredientes selecionados e muito sabor.">
+    <meta name="keywords" content="hambúrguer, burger, rochedão, comida, delivery, artesanal">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                <img src="img/Rochedao.PNG" alt="Rochedão Búrguer" class="logo-img">
+                <div class="logo-text">Rochedão Búrguer</div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Menu</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#contact">Contato</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-box">
+                <h1>Rochedão Búrguer</h1>
+                <p>Sabor que conquista na primeira mordida</p>
+                <a href="#contact" class="cta-button">Faça seu Pedido</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="cards-grid">
+                <div class="service-card">
+                    <h3>Pães</h3>
+                    <p>Pães frescos e selecionados. Aqui o Hambúrguer é levado a sério.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Produção</h3>
+                    <p>Produzido com higiene e dedicação. Tudo feito no capricho, servido com atitude.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Sabores</h3>
+                    <p>Hambúrguer raiz, com o toque de Chef.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ingredientes</h3>
+                    <p>Todos selecionados para garantir o melhor paladar do cliente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="cardapio" class="section menu-section">
+        <div class="container">
+            <h2>Cardápio</h2>
+            <div class="menu-container">
+                <img src="img/Cardápio (Menu).jpeg" alt="Cardápio Completo" class="menu-img" onclick="openLightbox(this.src, this.alt)">
+            </div>
+        </div>
+     
+    <br>
+    <br>
+ <a>
+    <video controls controlsList="nodownload"      
+           muted  poster="./Capa do Rochedao.PNG"
+           width="400" 
+           height="500"
+           >                        
+       <source src="./Video Rochedão.mp4">       
+    </video>
+ </a>
+    </section>  
+
+    <!-- Products Gallery -->
+    <section class="section products-section">
+        <div class="container">
+            <div class="products-grid">
+                <div class="produto">
+                    <img src="img/RB Tronxo.jpeg" alt="RB Troncho" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Troncho</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Turbinado.jpeg" alt="RB Turbinado" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Turbinado</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Triplo Queijo.jpeg" alt="RB Triplo Queijo" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Triplo Queijo</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Camarão.jpeg" alt="RB Camarão" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Camarão</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Egg Dog.jpeg" alt="RB Egg Dog" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Egg Dog</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Frango.jpeg" alt="RB Frango" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Frango</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Picanha.jpeg" alt="RB Picanha" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Picanha</p>
+                </div>
+                <div class="produto">
+                    <img src="img/Rb Fit Light.jpeg" alt="RB Fit Light" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Fit Light</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Cachorro.jpeg" alt="RB Cachorro" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Cachorro</p>
+                </div>
+                <div class="produto">
+                    <img src="img/RB Calabresa.jpeg" alt="RB Calabresa" onclick="openLightbox(this.src, this.alt)">
+                    <p>RB Calabresa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Contato</h2>
+            
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required rows="4"></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="mailto:raullchiappettac@gmail.com" class="social-link">
+                    <span class="icon">✉️</span>
+                    <span>Email</span>
+                </a>
+                <a href="https://wa.me/5581998527487" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <span class="icon">📱</span>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://www.instagram.com/@rochedaoburguers" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <span class="icon">📷</span>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://facebook.com/rochedaoburguers" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <span class="icon">📘</span>
+                    <span>Facebook</span>
+                </a>
+                <a href="https://maps.app.goo.gl/m2iKVXCoxDDRJYiu6" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <span class="icon">📍</span>
+                    <span>Localização</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Rochedão Búrguer. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+        <img class="lightbox-img" src="" alt="">
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
